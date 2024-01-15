@@ -1,0 +1,1180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F8"
+    android:id="@+id/rootView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="자개 붙이기"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            android:id="@+id/myScrollView"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical"
+                android:layout_marginBottom="96px"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="나전(螺鈿)은 전복, 조개 등 어패류의 껍데기를 얇고 판판하게 갈아 장식 재료로 가공한 것, 혹은 이것을 붙여 장식하는 기법을 말한다. 재료로 가공한 것은 ‘자개’라고도 한다. 옻칠한 바탕을 나전으로 꾸민 기물은 나전칠기(螺鈿漆器)라 한다. 한국에서는 통일신라시대부터 확인되며 고려시대부터 본격적으로 제작되었다. 조선시대 이후 문양의 크기가 커지고 자개를 붙이는 방법이 다양하게 발달하였다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1109px"
+                    android:layout_marginTop="41px"
+                    android:src="@drawable/image_3_2_1_1"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="end"
+                    android:text="출처 : 서울시 역사문화재과"
+                    android:textSize="40px"
+                    android:fontFamily="@font/suit_medium"
+                    android:layout_marginTop="22px"
+                    android:textColor="#a4a4a4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="줄음질"
+                    android:textSize="58px"
+                    android:layout_marginBottom="16px"
+                    android:layout_marginTop="114px"
+                    android:lineHeight="72px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="자개를 문양의 외곽선을 따라 오려 장식하는 방법이다. 사슴, 거북, 꽃잎, 넝쿨 잎 등 면적이 넓은 문양을 표현할 때 효과적이다. 조선시대까지 기물에 그린 밑그림의 바로 위에 자개를 붙인 것으로 추정되며, 일제강점기 실톱과 도안이 도입되면서 현재와 같이 자개를 실톱으로 오리고 도안지에 올려 한꺼번에 붙이는 방식이 형성된 것으로 보인다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1108px"
+                    android:layout_marginTop="42px"
+                    >
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_3_2_1_2"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="95px"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_vertical|start"
+                        android:paddingLeft="24px"
+                        android:text="&lt;나전 칠 모란넝쿨무늬 함&gt;, 조선 후기"
+                        android:textSize="40px"
+                        android:background="#4D4D4D"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="#EFEFEF" />
+                </FrameLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="146px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_3"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:lineHeight="82px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="실톱으로 자개를 문양의 외곽선을 따라 오린다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_4"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:lineHeight="82px"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="밑그림(도안) 위에 투명지를 올려 그림이 비쳐 보이게 한 후 문양에 맞추어 자개를 배열하여 붙인다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_5"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="03"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:lineHeight="82px"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻칠한 바탕 위에 부레풀을 바르고, 자개를 붙인 투명지를 뒤집어 부레풀 바른 부분과 자개가 맞닿도록 올린다. 자개가 단단히 고정되도록 인두로 눌러준다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_6"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="04"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:lineHeight="82px"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="자개가 떨어지지 않도록 주의하며 투명지를 떼어낸다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_7"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="05"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="투명지를 떼어내면서 자개 위에 남은 부레풀을 물에 씻어 깔끔하게 제거한다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="줄음질 과정 영상 보기"
+                        android:layout_marginTop="646px"
+                        android:textSize="54px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="end"
+                    android:text="출처 : 서울시 역사문화재과"
+                    android:textSize="40px"
+                    android:fontFamily="@font/suit_medium"
+                    android:layout_marginTop="22px"
+                    android:textColor="#a4a4a4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="끊음질"
+                    android:textSize="58px"
+                    android:layout_marginBottom="16px"
+                    android:layout_marginTop="114px"
+                    android:lineHeight="72px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="자개를 가늘고 긴 모양으로 자른 후 옻칠한 바탕에 칼로 끊어가며 붙이는 방법이다. 산수 무늬의 선이나 기물 가장자리에 띠처럼 둘러 장식하는 기하학 무늬를 시문할 때 주로 사용한다. 끊음질에 사용하기 위해 가늘고 길게 자른 자개는 ‘상사’라고 한다. 모양에 따라 봉상사, 송곳상사 등으로 나뉜다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="42px"
+                    android:layout_height="1108px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_3_2_1_20"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="95px"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_vertical|start"
+                        android:paddingLeft="24px"
+                        android:text="&lt;나전 칠 고려청자무늬 상자&gt;, 일제강점기"
+                        android:textSize="40px"
+                        android:background="#4D4D4D"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="#EFEFEF" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="146px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_9"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="상사거도로 자개를 가늘고 길게 썰어 ‘상사’를 만든다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_10"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻칠한 바탕 위에 붓으로 부레풀을 바른다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_11"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 서울시 역사문화재과"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="03"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="상사를 칼로 끊어가며 밑그림에 맞춰 기물에 붙인다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="끊음질 과정 영상 보기"
+                        android:layout_marginTop="646px"
+                        android:textSize="54px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="end"
+                    android:text="출처 : 서울시 역사문화재과"
+                    android:textSize="40px"
+                    android:fontFamily="@font/suit_medium"
+                    android:layout_marginTop="22px"
+                    android:textColor="#a4a4a4" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="모조법"
+                    android:textSize="58px"
+                    android:layout_marginBottom="16px"
+                    android:layout_marginTop="114px"
+                    android:lineHeight="72px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="줄음질 기법으로 자개를 문양의 외곽선을 따라 오린 후 날카로운 도구로 세부 문양을 새겨 표현하는 방법이다. 새의 깃털, 잎사귀의 잎맥 등 세세한 부분을 표현하는 데 용이하며 문양의 장식성을 높인다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="42px"
+                    android:layout_height="1108px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_3_2_1_21"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="95px"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_vertical|start"
+                        android:paddingLeft="24px"
+                        android:text="&lt;나전 칠 장생무늬 함&gt;, 조선 후기"
+                        android:textSize="40px"
+                        android:background="#4D4D4D"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="#EFEFEF" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="146px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_13"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 국립무형유산원"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻칠한 바탕에 줄음질로 오린 자개를 붙이고, 세부 문양을 칼로 새겨 흠을 낸다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_14"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 국립무형유산원"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="칼로 새겨 흠이 난 부분에 먹을 묻히고 손으로 문질러 흠 안쪽을 먹으로 채운다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_15"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 국립무형유산원"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="03"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="먹이 묻은 자개를 천으로 닦아내면 칼로 흠을 낸 부분에만 먹이 남아 선이 만들어진다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="모조법 과정 영상 보기"
+                        android:layout_marginTop="646px"
+                        android:textSize="54px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="bottom|end"
+                    android:gravity="end"
+                    android:text="출처 : 서울시 역사문화재과"
+                    android:textSize="40px"
+                    android:fontFamily="@font/suit_medium"
+                    android:layout_marginTop="22px"
+                    android:textColor="#a4a4a4" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="타찰법"
+                    android:textSize="58px"
+                    android:layout_marginBottom="16px"
+                    android:layout_marginTop="114px"
+                    android:lineHeight="72px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="줄음질 기법으로 자개를 문양의 외곽선을 따라 오린 후 누름쇠와 같은 도구로 눌러 인위적으로 균열을 주는 방법이다. 자개를 누르면 굴곡진 부분에 균열이 생기면서 옻칠한 바탕에 더욱 밀착되며 장식성을 높인다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="42px"
+                    android:layout_height="1108px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_3_2_1_22"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="95px"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_vertical|start"
+                        android:paddingLeft="24px"
+                        android:text="&lt;나전대모 금동입사 연화박쥐문 과반&gt;, 일제강점기"
+                        android:textSize="40px"
+                        android:background="#4D4D4D"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="#EFEFEF" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="146px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_17"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 국립무형유산원"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="01"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="줄음질로 오린 자개 위에 종이를 대고 망치로 살짝 두드려 균열을 낸다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    >
+
+                    <FrameLayout
+                        android:layout_width="985px"
+                        android:layout_height="859px">
+
+                        <ImageView
+                            android:layout_width="985px"
+                            android:layout_height="793px"
+                            android:src="@drawable/image_3_2_1_18"/>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="bottom|end"
+                            android:gravity="end"
+                            android:text="출처 : 국립무형유산원"
+                            android:textSize="40px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="#a4a4a4" />
+                    </FrameLayout>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="142px"
+                            android:layout_height="75px"
+                            android:text="02"
+                            android:fontFamily="@font/suit_bold"
+                            android:textSize="40px"
+                            android:gravity="center"
+                            android:background="@drawable/number_box"
+                            android:layout_marginBottom="30px"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="균열을 내면서 움직인 자개를 원위치로 정돈한다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="조패법"
+                    android:textSize="58px"
+                    android:layout_marginBottom="16px"
+                    android:layout_marginTop="114px"
+                    android:lineHeight="72px"
+                    android:fontFamily="@font/suit_bold"
+                    android:textColor="@color/black"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="두꺼운 자개를 조각칼로 새겨 문양을 부조와 같이 입체적으로 표현하는 방법이다. 1960~70년대 이후 크기가 크고 두꺼운 민물조개가 수입되면서 집집마다 혼수품으로 갖춘 자개장롱에 많이 장식되었다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_marginTop="42px"
+                    android:layout_height="1108px">
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/image_3_2_1_23"/>
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="95px"
+                        android:layout_gravity="center_horizontal|bottom"
+                        android:gravity="center_vertical|start"
+                        android:paddingLeft="24px"
+                        android:text="&lt;나전 칠 잉어무늬 상자&gt;, 일제강점기"
+                        android:textSize="40px"
+                        android:background="#4D4D4D"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="#EFEFEF" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>

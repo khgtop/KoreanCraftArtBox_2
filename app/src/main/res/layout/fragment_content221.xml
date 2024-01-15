@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FBF9F8"
+    android:id="@+id/rootView"
+    android:orientation="vertical">
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="188px"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="172px"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:textColor="@color/black"
+            android:textSize="65px"
+            android:gravity="center"
+            android:text="1"/>
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="150px"
+            android:layout_marginTop="19px"
+            android:layout_marginBottom="19px"
+            android:background="@color/black"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:fontFamily="@font/suit_semibold"
+            android:gravity="center_vertical"
+            android:textColor="@color/black"
+            android:layout_marginStart="78px"
+            android:textSize="65px"
+            android:text="다양한 장식 기법"/>
+    </LinearLayout>
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="4px"
+        android:background="@color/black"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="1130px"
+        android:orientation="horizontal">
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:layout_marginStart="172px"
+            android:background="@color/black"/>
+
+        <androidx.core.widget.NestedScrollView
+            android:layout_width="2206px"
+            android:layout_height="wrap_content"
+            android:paddingLeft="77px"
+            android:paddingRight="77px"
+            android:id="@+id/myScrollView"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="80px"
+                android:orientation="vertical"
+                android:layout_marginBottom="20px"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="옻칠한 바탕을 꾸미는 기법으로 금박, 대모와 금속선, 어피, 칠화, 난각이 있다."
+                    android:textSize="54px"
+                    android:lineHeight="82px"
+                    android:fontFamily="@font/suit_medium"
+                    android:textColor="@color/black"
+                    />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="1109px"
+                    android:layout_marginTop="41px"
+                    android:src="@drawable/image_3_1_1_1"/>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_3_1_1_2"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="금박[金箔]"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="금을 얇게 두드려 만든 박을 옻칠한 바탕에 붙여 장식하는 기법이다. 고려시대 이후 건칠(乾漆) 불상에서 많이 확인된다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_3_1_1_3"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="대모와 금속선"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="바다거북의 일종인 대모(玳瑁)의 등딱지와 얇은 금속선을 옻칠한 바탕에 붙여 장식하는 기법이다. 고려시대에 불교 경전을 보관했던 나전함을 꾸밀 때 많이 사용되었다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_3_1_1_4"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="어피[鮫皮]"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="상어나 가오리의 가죽을 옻칠한 바탕에 붙여 장식하는 기법이다. 조선시대에 어피를 붙인 함이 많이 제작되었다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_3_1_1_5"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="칠화[漆畵]"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="옻칠에 안료를 섞어 만든 색칠로 그림을 그려 장식하는 기법이다. 고대 낙랑 유적에서 칠화 유물이 많이 발굴되었으며, 일제강점기에 이를 재현한 상품이 상점가에서 인기가 많았다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="80px"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="985px"
+                        android:layout_height="875px"
+                        android:src="@drawable/image_3_1_1_6"/>
+
+                    <LinearLayout
+                        android:layout_width="987px"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:layout_marginStart="80px"
+                        >
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="난각[卵殼]"
+                            android:textSize="58px"
+                            android:layout_marginBottom="16px"
+                            android:lineHeight="72px"
+                            android:fontFamily="@font/suit_bold"
+                            android:textColor="@color/black"
+                            />
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="달걀 껍데기 조각을 옻칠한 바탕에 균열을 내어가며 붙이는 기법이다. 난각의 흰 표면과 어우러진 균열이 모던한 느낌을 주어 현대 옻칠 작품에 많이 사용된다."
+                            android:textSize="54px"
+                            android:lineHeight="82px"
+                            android:fontFamily="@font/suit_medium"
+                            android:textColor="@color/black"
+                            />
+                    </LinearLayout>
+                </LinearLayout>
+
+                <FrameLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="1155px"
+                    android:layout_marginTop="80px">
+
+                    <ImageView
+                        android:id="@+id/videoImageView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:background="#99000000"
+                        />
+
+                    <ImageView
+                        android:layout_width="175px"
+                        android:layout_height="175px"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="426px"
+                        android:src="@drawable/button_video_thumbnailplay" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:gravity="center"
+                        android:text="금박 기법(불상 개금) 영상 보기"
+                        android:layout_marginTop="646px"
+                        android:textSize="54px"
+                        android:fontFamily="@font/suit_bold"
+                        android:textColor="@android:color/white" />
+                </FrameLayout>
+            </LinearLayout>
+
+        </androidx.core.widget.NestedScrollView>
+
+
+        <View
+            android:layout_width="4px"
+            android:layout_height="match_parent"
+            android:layout_marginTop="16px"
+            android:layout_marginBottom="16px"
+            android:background="@color/black"/>
+        <ImageView
+            android:id="@+id/rightButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/button_right"
+            android:layout_gravity="center_vertical"
+            />
+    </LinearLayout>
+
+</LinearLayout>
